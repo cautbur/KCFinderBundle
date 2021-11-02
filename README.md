@@ -1,8 +1,8 @@
-KCFinderBundle for Symfony2 - Based on [KCFinder 3.1.2](http://kcfinder.sunhater.com)
+# KCFinderBundle for Symfony2 - Based on [KCFinder 3.1.2](http://kcfinder.sunhater.com)
 
 Fork based on [Charles's modifications](https://github.com/charlesparvin/KCFinderBundle) to [OwenRay's modifications](https://github.com/OwenRay/KCFinderBundle) to [jocelynkerbourch's original bundle]( https://github.com/jocelynkerbourch/KCFinderBundle)
 
-###Installation
+### Installation
 Add to `composer.json`
 ```
 "require": {
@@ -23,7 +23,7 @@ Add to `app/AppKernel.php`
     new cautbur\KCFinderBundle\KCFinderBundle(),
 ```
 
-###Configuration
+### Configuration
 Add to `app/config/routing.yml`:
 ```
 kc_finder: 
@@ -45,11 +45,11 @@ security:
         - { path: ^/admin/kcfinder*, role: ADMIN }
 ```
 
-###Integrating KCFinder with editors
+### Integrating KCFinder with editors
 
 Check [the official KCFinder documentation](http://kcfinder.sunhater.com/integrate)
 
-####Example Integration with TinyMCE 4
+#### Example Integration with TinyMCE 4
 
 Add this to your `tinymce.init` call :
 ```
